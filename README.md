@@ -28,4 +28,4 @@ chmod
 chmod o-r
 chmod o-w
 chmod g+w
-
+jupyter nbconvert --to script filepath => convert jupyetr notebook into a python script "py"
