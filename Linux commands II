@@ -1,0 +1,46 @@
+File Compression
+tar – Archives files:
+Example: tar -czvf archive.tar.gz directory/.
+zip – Compresses files:
+Example: zip archive.zip file1 file2.
+unzip – Extracts ZIP files.
+gzip/gunzip – Compresses or decompresses files.
+Process Management
+ps – Displays running processes.
+kill – Terminates a process:
+Example: kill PID.
+killall – Kills processes by name:
+Example: killall firefox.
+jobs – Lists background jobs.
+fg/bg – Brings background jobs to the foreground or resumes them.
+Searching and Filtering
+grep – Searches text in files:
+Example: grep "text" file.txt.
+find – Locates files or directories:
+Example: find /path -name "*.txt".
+locate – Quickly searches for files (requires mlocate).
+awk – Processes and analyzes text files.
+sed – Edits text in a stream or file.
+Package Management (Varies by Distribution)
+For Debian/Ubuntu:
+apt-get / apt – Installs, updates, or removes packages:
+Example: sudo apt install package-name.
+For Red Hat/CentOS:
+yum / dnf – Installs, updates, or removes packages:
+Example: sudo dnf install package-name.
+For Arch Linux:
+pacman – Installs, updates, or removes packages:
+Example: sudo pacman -S package-name.
+User Management
+adduser / useradd – Adds a new user.
+passwd – Changes a user’s password.
+who – Shows logged-in users.
+sudo – Executes commands with administrative privileges.
+Other Useful Commands
+history – Displays the history of executed commands.
+alias – Creates shortcuts for commands:
+Example: alias ll='ls -l'.
+date – Displays or sets the system date and time.
+env – Shows environment variables.
+shutdown – Shuts down or restarts the system:
+Example: shutdown -h now (shut down immediately).
