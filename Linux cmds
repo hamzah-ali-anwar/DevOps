@@ -45,3 +45,14 @@ ifconfig / ip – Displays network configuration.
 netstat – Shows network connections.
 ssh – Connects to a remote server:
 Example: ssh user@hostname.
+ystemctl status httpd
+systemctl start httpd
+systemctl status httpd
+systemctl stop httpd
+top
+ps aux
+ps -ef
+ps -ef | grep httpd
+ps -ef | grep httpd | grep -v 'grep'
+kill -9 65267
+
