@@ -44,3 +44,4 @@ date – Displays or sets the system date and time.
 env – Shows environment variables.
 shutdown – Shuts down or restarts the system:
 Example: shutdown -h now (shut down immediately).
+find "$PWD" -name "filename" - find an absolute path
