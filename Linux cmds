@@ -100,4 +100,8 @@ unzip 2135_mini_finance.zip
 cp -r * /var/www/html/
 systemctl status firewalld
 echo $SHELL -> find which terminal you're using
-
+systemctl: Manages system services and units in systems using systemd.
+journalctl: Views logs collected by systemd.
+ip: Configures and displays network interfaces.
+htop: Interactive process viewer for monitoring system resources.
+nmap: Network exploration tool and security scanner.
